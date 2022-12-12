@@ -17,11 +17,12 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     margin : 0 auto;
-    width: 256px;
+    height:380px;
+    width: 325px;
     text-align: center;
     border: 10px solid #101116;
     background: #101116;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .keypad{
     display: grid;
@@ -30,8 +31,8 @@ body{
 
 }
 input[type="text"]{
-    height: 75px;
-    width: 249px;
+    height: 76px;
+    width: 320px;
     background-color: #10111600;
     border: 0px;
     color: #ffffff;
